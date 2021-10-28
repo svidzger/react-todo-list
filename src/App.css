@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.priority-high {
+  background-color: lightcoral;
+}
+
+.priority-medium {
+  background-color: lightsalmon;
+}
+
+.priority-low{
+  background-color: lightgreen;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
