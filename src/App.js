@@ -1,20 +1,10 @@
-import './App.css';
-import TodoList from './components/TodoList';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
+import "./App.css";
+import TabApp from "./components/TabApp";
 
 function App() {
   return (
     <div className="App">
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6">
-            My Todos
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <TodoList />
+      <TabApp />
     </div>
   );
 }

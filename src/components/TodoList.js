@@ -9,7 +9,6 @@ import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import DatePicker from "@mui/lab/DatePicker";
 import { format } from "date-fns";
-import { fi } from 'date-fns/locale';
 
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-material.css";
@@ -77,7 +76,6 @@ function TodoList() {
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <DatePicker
             label="Date"
-            locale={fi}
             value={todo.date}
             onChange={(date) => {
               const formattedDate = format(date, "dd MMM, yyyy");
